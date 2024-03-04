@@ -1,0 +1,59 @@
+// Colors
+$color-light-brown:#886239;
+$color-light-grey:#EAEAEA;
+$color-grey:#C4C4C4;
+$color-black:#1F1E1E;
+$color-white:white;
+// /Colors
+
+// Mixins
+
+@mixin background-set{
+    background-position:50% 50% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+// /Mixins
+
+
+
+// fonts
+@mixin pt--bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+  }
+
+
+@mixin roboto--regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  
+  @mixin roboto--medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  
+  @mixin roboto--bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+  }
+// //fonts
+
+// Adaptive bootstrap breakpoints 
+$bootstrap-min-sm: 576px;
+$bootstrap-min-md: 768px;
+$bootstrap-max-sm: $bootstrap-min-md - 1px;
+$bootstrap-min-lg: 992px;
+$bootstrap-max-md: $bootstrap-min-lg - 1px;
+$bootstrap-min-xl: 1200px;
+$bootstrap-max-lg: $bootstrap-min-xl - 1px;
+$bootstrap-min-xxl: 1400px;
+$bootstrap-max-xl: $bootstrap-min-xxl - 1px;
+
+// /Adaptive bootstrap breakpoints 
+
+//other
+$base:4px;
+
+
